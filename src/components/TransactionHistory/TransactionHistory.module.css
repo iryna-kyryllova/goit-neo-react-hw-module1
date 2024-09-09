@@ -1,0 +1,33 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.thead {
+  background-color: var(--black);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.title {
+  padding: 8px;
+}
+
+.line {
+  text-align: center;
+}
+
+.line:nth-child(2n) {
+  background-color: var(--light-grey);
+}
+
+.td {
+  padding: 8px;
+}
+
+.td:first-child {
+  padding-left: 8%;
+  text-align: left;
+}
