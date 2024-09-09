@@ -9,7 +9,6 @@ body {
   position: relative;
   min-width: 320px;
   margin: 0;
-  padding: 50px;
   background-color: var(--white);
   font-family: var(--font-primary);
   font-size: 16px;
@@ -29,7 +28,6 @@ h4,
 h5,
 h6 {
   margin-top: 0;
-  font-family: var(--font-secondary);
   line-height: normal;
 }
 
@@ -45,16 +43,19 @@ img {
 }
 
 p {
-  margin: 0 0 24px;
-}
-
-p:last-child {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 input,
@@ -96,4 +97,10 @@ button {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
 }
